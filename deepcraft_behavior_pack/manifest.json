@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Deepcraft Behavior Pack",
+        "name": "Deepcraft Behavior Pack",
+        "uuid": "4d4a0f98-7724-4358-9d5c-145a214666e7",
+        "version": [1,0,0],
+        "min_engine_version": [1,16,0]
+    },
+    "modules": [
+        {
+            "description": "Deepcraft Behavior Pack",
+            "type": "data",
+            "uuid": "1f0c0d23-3925-457a-a542-ed6fdac12c73",
+            "version": [1,0,0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "5906f904-7274-4999-9a0f-9d7347a93754",
+            "version": [1,0,0]
+        }
+    ]
+}

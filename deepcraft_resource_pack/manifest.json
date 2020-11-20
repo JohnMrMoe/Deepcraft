@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Deepcraft Resource Pack",
+    "name": " Resource Pack",
+    "uuid": "5906f904-7274-4999-9a0f-9d7347a93754",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Deepcraft Resource Pack",
+      "type": "resources",
+      "uuid": "08b36d65-4767-4194-955e-d580b394ac80",
+      "version": [1, 0, 0]
+    }
+  ]
+}
