@@ -1,0 +1,3320 @@
+{
+  "format_version": "1.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "walk",
+          "pa:birch_leaves_armor",
+          "pa:diorite_armor",
+          "pa:andesite_armor",
+          "pa:acacia_log_armor",
+          "pa:slime_armor",
+          "pa:bedrock_armor",
+          "pa:sponge_armor",
+          "pa:ice_armor",
+          "pa:birch_wooden_planks_armor",
+          "pa:birch_log_armor",
+          "pa:jungle_tree_log_armor",
+          "pa:crimson_stem_armor",
+          "pa:warped_stem_armor",
+          "pa:spruce_wooden_planks_armor",
+          "pa:obsidian_armor",
+          "pa:dirt_armor",
+          "pa:oak_leaves_armor",
+          "pa:cobblestone_armor",
+          "pa:jungle_tree_wooden_planks_armor",
+          "pa:acacia_wooden_planks_armor",
+          "pa:oak_wooden_planks_armor",
+          "pa:blackstone_armor",
+          "pa:arma_de_piedra",
+          "pa:netherra_armor",
+          "pa:sea_armor",
+          "pa:endstone_armor",
+          "pa:acac_leaves_armor",
+          "pa:spruce_log_armor",
+          "pa:glowstone_armor",
+          "pa:dark_oak_log_armor",
+          "pa:hay_bale_armor",
+          "pa:dark_oak_wooden_planks_armor",
+          "pa:cactus_armor",
+          "pa:spruce_leaves_armor",
+          "pa:jungle_tree_leaves_armor",
+          "pa:blackstone_armor2",
+          "pa:emeral_armor",
+          "pa:skeleton_armor",
+          "pa:grenite_armor",
+          "pa:oak_log_armor",
+          "pa:fire_armor",
+          "pa:glass_armor"
+        ]
+      },
+      "animations": {
+        "walk": "controller.animation.walk",
+        "pa:birch_leaves_armor": "controller.animation.pa_birch_leaves_armor",
+        "pa:diorite_armor": "controller.animation.pa_diorite_armor",
+        "pa:andesite_armor": "controller.animation.pa_andesite_armor",
+        "pa:acacia_log_armor": "controller.animation.pa_acacia_log_armor",
+        "pa:slime_armor": "controller.animation.pa_slime_armor",
+        "pa:bedrock_armor": "controller.animation.pa_bedrock_armor",
+        "pa:sponge_armor": "controller.animation.pa_sponge_armor",
+        "pa:ice_armor": "controller.animation.pa_ice_armor",
+        "pa:birch_wooden_planks_armor": "controller.animation.pa_birch_wooden_planks_armor",
+        "pa:birch_log_armor": "controller.animation.pa_birch_log_armor",
+        "pa:jungle_tree_log_armor": "controller.animation.pa_jungle_tree_log_armor",
+        "pa:crimson_stem_armor": "controller.animation.pa_crimson_stem_armor",
+        "pa:warped_stem_armor": "controller.animation.pa_warped_stem_armor",
+        "pa:spruce_wooden_planks_armor": "controller.animation.pa_spruce_wooden_planks_armor",
+        "pa:obsidian_armor": "controller.animation.pa_obsidian_armor",
+        "pa:dirt_armor": "controller.animation.pa_dirt_armor",
+        "pa:oak_leaves_armor": "controller.animation.pa_oak_leaves_armor",
+        "pa:cobblestone_armor": "controller.animation.pa_cobblestone_armor",
+        "pa:jungle_tree_wooden_planks_armor": "controller.animation.pa_jungle_tree_wooden_planks_armor",
+        "pa:acacia_wooden_planks_armor": "controller.animation.pa_acacia_wooden_planks_armor",
+        "pa:oak_wooden_planks_armor": "controller.animation.pa_oak_wooden_planks_armor",
+        "pa:blackstone_armor": "controller.animation.pa_blackstone_armor",
+        "pa:arma_de_piedra": "controller.animation.pa_arma_de_piedra",
+        "pa:netherra_armor": "controller.animation.pa_netherra_armor",
+        "pa:sea_armor": "controller.animation.pa_sea_armor",
+        "pa:endstone_armor": "controller.animation.pa_endstone_armor",
+        "pa:acac_leaves_armor": "controller.animation.pa_acac_leaves_armor",
+        "pa:spruce_log_armor": "controller.animation.pa_spruce_log_armor",
+        "pa:glowstone_armor": "controller.animation.pa_glowstone_armor",
+        "pa:dark_oak_log_armor": "controller.animation.pa_dark_oak_log_armor",
+        "pa:hay_bale_armor": "controller.animation.pa_hay_bale_armor",
+        "pa:dark_oak_wooden_planks_armor": "controller.animation.pa_dark_oak_wooden_planks_armor",
+        "pa:cactus_armor": "controller.animation.pa_cactus_armor",
+        "pa:spruce_leaves_armor": "controller.animation.pa_spruce_leaves_armor",
+        "pa:jungle_tree_leaves_armor": "controller.animation.pa_jungle_tree_leaves_armor",
+        "pa:blackstone_armor2": "controller.animation.pa_blackstone_armor2",
+        "pa:emeral_armor": "controller.animation.pa_emeral_armor",
+        "pa:skeleton_armor": "controller.animation.pa_skeleton_armor",
+        "pa:grenite_armor": "controller.animation.pa_grenite_armor",
+        "pa:oak_log_armor": "controller.animation.pa_oak_log_armor",
+        "pa:fire_armor": "controller.animation.pa_fire_armor",
+        "pa:glass_armor": "controller.animation.pa_glass_armor"
+      }
+    },
+    "component_groups": {
+      "pamobile:respawn": {
+        "minecraft:mark_variant": {
+          "value": 99999
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": [
+            "resistance",
+            "invisibility",
+            "regeneration",
+            "speed",
+            "fire_resistance",
+            "jump_boost",
+            "absorption",
+            "water_breathing",
+            "night_vision",
+            "instant_health",
+            "strength"
+          ]
+        }
+      },
+      "ammo:1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "pa:emerald_sworld": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 8.5
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:sea_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 30
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "water_breathing",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:fire_hammer": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 30
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:obsidia_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 12
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "strength",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:bedrock_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 16
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 4,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:birch_leaves_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:birch_leaves_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:diorite_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:diorite_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:andesite_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:andesite_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:acacia_log_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:acacia_log_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:slime_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:slime_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "jump_boost",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:bedrock_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:bedrock_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 5,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "strength",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:sponge_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:sponge_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "absorption",
+              "duration": 60000,
+              "amplifier": 4,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "water_breathing",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:ice_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:ice_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "speed",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:birch_wooden_planks_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:birch_wooden_planks_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:birch_log_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:birch_log_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:jungle_tree_log_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:jungle_tree_log_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:crimson_stem_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:crimson_stem_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:warped_stem_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:warped_stem_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:spruce_wooden_planks_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:spruce_wooden_planks_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:obsidian_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:obsidian_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "jump_boost",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "strength",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:dirt_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:dirt_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:oak_leaves_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:oak_leaves_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:cobblestone_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:cobblestone_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:jungle_tree_wooden_planks_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:jungle_tree_wooden_planks_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:acacia_wooden_planks_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:acacia_wooden_planks_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:oak_wooden_planks_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:oak_wooden_planks_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:blackstone_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:blackstone_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:arma_de_piedra_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:arma_de_piedra_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:netherra_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:netherra_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:sea_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:sea_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "night_vision",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "speed",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "water_breathing",
+              "duration": 60000,
+              "amplifier": 4,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:endstone_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:endstone_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:acac_leaves_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:acac_leaves_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:spruce_log_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:spruce_log_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:glowstone_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:glowstone_armor_event_play": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "night_vision",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:dark_oak_log_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:dark_oak_log_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:hay_bale_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:hay_bale_armor_event_play": {
+        "minecraft:health": {
+          "value": 30,
+          "max": 30
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:dark_oak_wooden_planks_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:dark_oak_wooden_planks_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:cactus_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:cactus_armor_event_play": {
+        "minecraft:health": {
+          "value": 24,
+          "max": 24
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "regeneration",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:spruce_leaves_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:spruce_leaves_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:jungle_tree_leaves_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:jungle_tree_leaves_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:blackstone_armor2_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:blackstone_armor2_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:emeral_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:emeral_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:skeleton_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:skeleton_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:grenite_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:grenite_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:oak_log_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:oak_log_armor_event_play": {
+        "minecraft:health": {
+          "value": 26,
+          "max": 26
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:fire_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:fire_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 4,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "instant_health",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "resistance",
+              "duration": 60000,
+              "amplifier": 3,
+              "display_on_screen_animation": false
+            },
+            {
+              "effect": "strength",
+              "duration": 60000,
+              "amplifier": 2,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:glass_armor_event_hold": {
+        "minecraft:is_chested": {}
+      },
+      "pa:glass_armor_event_play": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "fire_resistance",
+              "duration": 60000,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "pamobile:refresh_player"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:emerald_sworld"
+                }
+              ]
+            },
+            "event": "pa:emerald_sworld_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:sea_axe"
+                }
+              ]
+            },
+            "event": "pa:sea_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:fire_hammer"
+                }
+              ]
+            },
+            "event": "pa:fire_hammer_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:obsidia_sword"
+                }
+              ]
+            },
+            "event": "pa:obsidia_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:bedrock_sword"
+                }
+              ]
+            },
+            "event": "pa:bedrock_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:birch_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:birch_leaves_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:birch_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:birch_leaves_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:diorite_armor"
+                }
+              ]
+            },
+            "event": "pa:diorite_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:diorite_armor"
+                }
+              ]
+            },
+            "event": "pa:diorite_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:andesite_armor"
+                }
+              ]
+            },
+            "event": "pa:andesite_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:andesite_armor"
+                }
+              ]
+            },
+            "event": "pa:andesite_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:acacia_log_armor"
+                }
+              ]
+            },
+            "event": "pa:acacia_log_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:acacia_log_armor"
+                }
+              ]
+            },
+            "event": "pa:acacia_log_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:slime_armor"
+                }
+              ]
+            },
+            "event": "pa:slime_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:slime_armor"
+                }
+              ]
+            },
+            "event": "pa:slime_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:bedrock_armor"
+                }
+              ]
+            },
+            "event": "pa:bedrock_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:bedrock_armor"
+                }
+              ]
+            },
+            "event": "pa:bedrock_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:sponge_armor"
+                }
+              ]
+            },
+            "event": "pa:sponge_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:sponge_armor"
+                }
+              ]
+            },
+            "event": "pa:sponge_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:ice_armor"
+                }
+              ]
+            },
+            "event": "pa:ice_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:ice_armor"
+                }
+              ]
+            },
+            "event": "pa:ice_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:birch_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:birch_wooden_planks_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:birch_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:birch_wooden_planks_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:birch_log_armor"
+                }
+              ]
+            },
+            "event": "pa:birch_log_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:birch_log_armor"
+                }
+              ]
+            },
+            "event": "pa:birch_log_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:jungle_tree_log_armor"
+                }
+              ]
+            },
+            "event": "pa:jungle_tree_log_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:jungle_tree_log_armor"
+                }
+              ]
+            },
+            "event": "pa:jungle_tree_log_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:crimson_stem_armor"
+                }
+              ]
+            },
+            "event": "pa:crimson_stem_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:crimson_stem_armor"
+                }
+              ]
+            },
+            "event": "pa:crimson_stem_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:warped_stem_armor"
+                }
+              ]
+            },
+            "event": "pa:warped_stem_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:warped_stem_armor"
+                }
+              ]
+            },
+            "event": "pa:warped_stem_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:spruce_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:spruce_wooden_planks_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:spruce_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:spruce_wooden_planks_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:obsidian_armor"
+                }
+              ]
+            },
+            "event": "pa:obsidian_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:obsidian_armor"
+                }
+              ]
+            },
+            "event": "pa:obsidian_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:dirt_armor"
+                }
+              ]
+            },
+            "event": "pa:dirt_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:dirt_armor"
+                }
+              ]
+            },
+            "event": "pa:dirt_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:oak_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:oak_leaves_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:oak_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:oak_leaves_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:cobblestone_armor"
+                }
+              ]
+            },
+            "event": "pa:cobblestone_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:cobblestone_armor"
+                }
+              ]
+            },
+            "event": "pa:cobblestone_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:jungle_tree_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:jungle_tree_wooden_planks_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:jungle_tree_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:jungle_tree_wooden_planks_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:acacia_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:acacia_wooden_planks_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:acacia_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:acacia_wooden_planks_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:oak_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:oak_wooden_planks_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:oak_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:oak_wooden_planks_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:blackstone_armor"
+                }
+              ]
+            },
+            "event": "pa:blackstone_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:blackstone_armor"
+                }
+              ]
+            },
+            "event": "pa:blackstone_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:arma_de_piedra"
+                }
+              ]
+            },
+            "event": "pa:arma_de_piedra_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:arma_de_piedra"
+                }
+              ]
+            },
+            "event": "pa:arma_de_piedra_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:netherra_armor"
+                }
+              ]
+            },
+            "event": "pa:netherra_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:netherra_armor"
+                }
+              ]
+            },
+            "event": "pa:netherra_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:sea_armor"
+                }
+              ]
+            },
+            "event": "pa:sea_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:sea_armor"
+                }
+              ]
+            },
+            "event": "pa:sea_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:endstone_armor"
+                }
+              ]
+            },
+            "event": "pa:endstone_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:endstone_armor"
+                }
+              ]
+            },
+            "event": "pa:endstone_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:acac_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:acac_leaves_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:acac_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:acac_leaves_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:spruce_log_armor"
+                }
+              ]
+            },
+            "event": "pa:spruce_log_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:spruce_log_armor"
+                }
+              ]
+            },
+            "event": "pa:spruce_log_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:glowstone_armor"
+                }
+              ]
+            },
+            "event": "pa:glowstone_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:glowstone_armor"
+                }
+              ]
+            },
+            "event": "pa:glowstone_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:dark_oak_log_armor"
+                }
+              ]
+            },
+            "event": "pa:dark_oak_log_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:dark_oak_log_armor"
+                }
+              ]
+            },
+            "event": "pa:dark_oak_log_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:hay_bale_armor"
+                }
+              ]
+            },
+            "event": "pa:hay_bale_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:hay_bale_armor"
+                }
+              ]
+            },
+            "event": "pa:hay_bale_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:dark_oak_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:dark_oak_wooden_planks_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:dark_oak_wooden_planks_armor"
+                }
+              ]
+            },
+            "event": "pa:dark_oak_wooden_planks_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:cactus_armor"
+                }
+              ]
+            },
+            "event": "pa:cactus_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:cactus_armor"
+                }
+              ]
+            },
+            "event": "pa:cactus_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:spruce_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:spruce_leaves_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:spruce_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:spruce_leaves_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:jungle_tree_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:jungle_tree_leaves_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:jungle_tree_leaves_armor"
+                }
+              ]
+            },
+            "event": "pa:jungle_tree_leaves_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:blackstone_armor2"
+                }
+              ]
+            },
+            "event": "pa:blackstone_armor2_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:blackstone_armor2"
+                }
+              ]
+            },
+            "event": "pa:blackstone_armor2_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:emeral_armor"
+                }
+              ]
+            },
+            "event": "pa:emeral_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:emeral_armor"
+                }
+              ]
+            },
+            "event": "pa:emeral_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:skeleton_armor"
+                }
+              ]
+            },
+            "event": "pa:skeleton_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:skeleton_armor"
+                }
+              ]
+            },
+            "event": "pa:skeleton_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:grenite_armor"
+                }
+              ]
+            },
+            "event": "pa:grenite_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:grenite_armor"
+                }
+              ]
+            },
+            "event": "pa:grenite_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:oak_log_armor"
+                }
+              ]
+            },
+            "event": "pa:oak_log_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:oak_log_armor"
+                }
+              ]
+            },
+            "event": "pa:oak_log_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:fire_armor"
+                }
+              ]
+            },
+            "event": "pa:fire_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:fire_armor"
+                }
+              ]
+            },
+            "event": "pa:fire_armor_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:glass_armor"
+                }
+              ]
+            },
+            "event": "pa:glass_armor_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:glass_armor"
+                }
+              ]
+            },
+            "event": "pa:glass_armor_event_play"
+          }
+        }
+      ],
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {}
+    },
+    "events": {
+      "pamobile:refresh_player": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "pa:emerald_sworld",
+            "pa:sea_axe",
+            "pa:fire_hammer",
+            "pa:obsidia_sword",
+            "pa:bedrock_sword",
+            "pa:birch_leaves_armor_event_hold",
+            "pa:birch_leaves_armor_event_play",
+            "pa:diorite_armor_event_hold",
+            "pa:diorite_armor_event_play",
+            "pa:andesite_armor_event_hold",
+            "pa:andesite_armor_event_play",
+            "pa:acacia_log_armor_event_hold",
+            "pa:acacia_log_armor_event_play",
+            "pa:slime_armor_event_hold",
+            "pa:slime_armor_event_play",
+            "pa:bedrock_armor_event_hold",
+            "pa:bedrock_armor_event_play",
+            "pa:sponge_armor_event_hold",
+            "pa:sponge_armor_event_play",
+            "pa:ice_armor_event_hold",
+            "pa:ice_armor_event_play",
+            "pa:birch_wooden_planks_armor_event_hold",
+            "pa:birch_wooden_planks_armor_event_play",
+            "pa:birch_log_armor_event_hold",
+            "pa:birch_log_armor_event_play",
+            "pa:jungle_tree_log_armor_event_hold",
+            "pa:jungle_tree_log_armor_event_play",
+            "pa:crimson_stem_armor_event_hold",
+            "pa:crimson_stem_armor_event_play",
+            "pa:warped_stem_armor_event_hold",
+            "pa:warped_stem_armor_event_play",
+            "pa:spruce_wooden_planks_armor_event_hold",
+            "pa:spruce_wooden_planks_armor_event_play",
+            "pa:obsidian_armor_event_hold",
+            "pa:obsidian_armor_event_play",
+            "pa:dirt_armor_event_hold",
+            "pa:dirt_armor_event_play",
+            "pa:oak_leaves_armor_event_hold",
+            "pa:oak_leaves_armor_event_play",
+            "pa:cobblestone_armor_event_hold",
+            "pa:cobblestone_armor_event_play",
+            "pa:jungle_tree_wooden_planks_armor_event_hold",
+            "pa:jungle_tree_wooden_planks_armor_event_play",
+            "pa:acacia_wooden_planks_armor_event_hold",
+            "pa:acacia_wooden_planks_armor_event_play",
+            "pa:oak_wooden_planks_armor_event_hold",
+            "pa:oak_wooden_planks_armor_event_play",
+            "pa:blackstone_armor_event_hold",
+            "pa:blackstone_armor_event_play",
+            "pa:arma_de_piedra_event_hold",
+            "pa:arma_de_piedra_event_play",
+            "pa:netherra_armor_event_hold",
+            "pa:netherra_armor_event_play",
+            "pa:sea_armor_event_hold",
+            "pa:sea_armor_event_play",
+            "pa:endstone_armor_event_hold",
+            "pa:endstone_armor_event_play",
+            "pa:acac_leaves_armor_event_hold",
+            "pa:acac_leaves_armor_event_play",
+            "pa:spruce_log_armor_event_hold",
+            "pa:spruce_log_armor_event_play",
+            "pa:glowstone_armor_event_hold",
+            "pa:glowstone_armor_event_play",
+            "pa:dark_oak_log_armor_event_hold",
+            "pa:dark_oak_log_armor_event_play",
+            "pa:hay_bale_armor_event_hold",
+            "pa:hay_bale_armor_event_play",
+            "pa:dark_oak_wooden_planks_armor_event_hold",
+            "pa:dark_oak_wooden_planks_armor_event_play",
+            "pa:cactus_armor_event_hold",
+            "pa:cactus_armor_event_play",
+            "pa:spruce_leaves_armor_event_hold",
+            "pa:spruce_leaves_armor_event_play",
+            "pa:jungle_tree_leaves_armor_event_hold",
+            "pa:jungle_tree_leaves_armor_event_play",
+            "pa:blackstone_armor2_event_hold",
+            "pa:blackstone_armor2_event_play",
+            "pa:emeral_armor_event_hold",
+            "pa:emeral_armor_event_play",
+            "pa:skeleton_armor_event_hold",
+            "pa:skeleton_armor_event_play",
+            "pa:grenite_armor_event_hold",
+            "pa:grenite_armor_event_play",
+            "pa:oak_log_armor_event_hold",
+            "pa:oak_log_armor_event_play",
+            "pa:fire_armor_event_hold",
+            "pa:fire_armor_event_play",
+            "pa:glass_armor_event_hold",
+            "pa:glass_armor_event_play"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {}
+      },
+      "ammo:1": {
+        "remove": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        }
+      },
+      "ammo:2": {
+        "remove": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        }
+      },
+      "pa:emerald_sworld_event": {
+        "add": {
+          "component_groups": [
+            "pa:emerald_sworld"
+          ]
+        }
+      },
+      "pa:sea_axe_event": {
+        "add": {
+          "component_groups": [
+            "pa:sea_axe"
+          ]
+        }
+      },
+      "pa:fire_hammer_event": {
+        "add": {
+          "component_groups": [
+            "pa:fire_hammer"
+          ]
+        }
+      },
+      "pa:obsidia_sword_event": {
+        "add": {
+          "component_groups": [
+            "pa:obsidia_sword"
+          ]
+        }
+      },
+      "pa:bedrock_sword_event": {
+        "add": {
+          "component_groups": [
+            "pa:bedrock_sword"
+          ]
+        }
+      },
+      "pa:birch_leaves_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:birch_leaves_armor_event_hold"
+          ]
+        }
+      },
+      "pa:birch_leaves_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:birch_leaves_armor_event_play"
+          ]
+        }
+      },
+      "pa:diorite_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:diorite_armor_event_hold"
+          ]
+        }
+      },
+      "pa:diorite_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:diorite_armor_event_play"
+          ]
+        }
+      },
+      "pa:andesite_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:andesite_armor_event_hold"
+          ]
+        }
+      },
+      "pa:andesite_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:andesite_armor_event_play"
+          ]
+        }
+      },
+      "pa:acacia_log_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:acacia_log_armor_event_hold"
+          ]
+        }
+      },
+      "pa:acacia_log_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:acacia_log_armor_event_play"
+          ]
+        }
+      },
+      "pa:slime_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:slime_armor_event_hold"
+          ]
+        }
+      },
+      "pa:slime_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:slime_armor_event_play"
+          ]
+        }
+      },
+      "pa:bedrock_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:bedrock_armor_event_hold"
+          ]
+        }
+      },
+      "pa:bedrock_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:bedrock_armor_event_play"
+          ]
+        }
+      },
+      "pa:sponge_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:sponge_armor_event_hold"
+          ]
+        }
+      },
+      "pa:sponge_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:sponge_armor_event_play"
+          ]
+        }
+      },
+      "pa:ice_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:ice_armor_event_hold"
+          ]
+        }
+      },
+      "pa:ice_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:ice_armor_event_play"
+          ]
+        }
+      },
+      "pa:birch_wooden_planks_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:birch_wooden_planks_armor_event_hold"
+          ]
+        }
+      },
+      "pa:birch_wooden_planks_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:birch_wooden_planks_armor_event_play"
+          ]
+        }
+      },
+      "pa:birch_log_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:birch_log_armor_event_hold"
+          ]
+        }
+      },
+      "pa:birch_log_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:birch_log_armor_event_play"
+          ]
+        }
+      },
+      "pa:jungle_tree_log_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:jungle_tree_log_armor_event_hold"
+          ]
+        }
+      },
+      "pa:jungle_tree_log_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:jungle_tree_log_armor_event_play"
+          ]
+        }
+      },
+      "pa:crimson_stem_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:crimson_stem_armor_event_hold"
+          ]
+        }
+      },
+      "pa:crimson_stem_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:crimson_stem_armor_event_play"
+          ]
+        }
+      },
+      "pa:warped_stem_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:warped_stem_armor_event_hold"
+          ]
+        }
+      },
+      "pa:warped_stem_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:warped_stem_armor_event_play"
+          ]
+        }
+      },
+      "pa:spruce_wooden_planks_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:spruce_wooden_planks_armor_event_hold"
+          ]
+        }
+      },
+      "pa:spruce_wooden_planks_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:spruce_wooden_planks_armor_event_play"
+          ]
+        }
+      },
+      "pa:obsidian_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:obsidian_armor_event_hold"
+          ]
+        }
+      },
+      "pa:obsidian_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:obsidian_armor_event_play"
+          ]
+        }
+      },
+      "pa:dirt_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:dirt_armor_event_hold"
+          ]
+        }
+      },
+      "pa:dirt_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:dirt_armor_event_play"
+          ]
+        }
+      },
+      "pa:oak_leaves_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:oak_leaves_armor_event_hold"
+          ]
+        }
+      },
+      "pa:oak_leaves_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:oak_leaves_armor_event_play"
+          ]
+        }
+      },
+      "pa:cobblestone_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:cobblestone_armor_event_hold"
+          ]
+        }
+      },
+      "pa:cobblestone_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:cobblestone_armor_event_play"
+          ]
+        }
+      },
+      "pa:jungle_tree_wooden_planks_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:jungle_tree_wooden_planks_armor_event_hold"
+          ]
+        }
+      },
+      "pa:jungle_tree_wooden_planks_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:jungle_tree_wooden_planks_armor_event_play"
+          ]
+        }
+      },
+      "pa:acacia_wooden_planks_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:acacia_wooden_planks_armor_event_hold"
+          ]
+        }
+      },
+      "pa:acacia_wooden_planks_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:acacia_wooden_planks_armor_event_play"
+          ]
+        }
+      },
+      "pa:oak_wooden_planks_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:oak_wooden_planks_armor_event_hold"
+          ]
+        }
+      },
+      "pa:oak_wooden_planks_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:oak_wooden_planks_armor_event_play"
+          ]
+        }
+      },
+      "pa:blackstone_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:blackstone_armor_event_hold"
+          ]
+        }
+      },
+      "pa:blackstone_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:blackstone_armor_event_play"
+          ]
+        }
+      },
+      "pa:arma_de_piedra_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:arma_de_piedra_event_hold"
+          ]
+        }
+      },
+      "pa:arma_de_piedra_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:arma_de_piedra_event_play"
+          ]
+        }
+      },
+      "pa:netherra_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:netherra_armor_event_hold"
+          ]
+        }
+      },
+      "pa:netherra_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:netherra_armor_event_play"
+          ]
+        }
+      },
+      "pa:sea_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:sea_armor_event_hold"
+          ]
+        }
+      },
+      "pa:sea_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:sea_armor_event_play"
+          ]
+        }
+      },
+      "pa:endstone_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:endstone_armor_event_hold"
+          ]
+        }
+      },
+      "pa:endstone_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:endstone_armor_event_play"
+          ]
+        }
+      },
+      "pa:acac_leaves_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:acac_leaves_armor_event_hold"
+          ]
+        }
+      },
+      "pa:acac_leaves_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:acac_leaves_armor_event_play"
+          ]
+        }
+      },
+      "pa:spruce_log_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:spruce_log_armor_event_hold"
+          ]
+        }
+      },
+      "pa:spruce_log_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:spruce_log_armor_event_play"
+          ]
+        }
+      },
+      "pa:glowstone_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:glowstone_armor_event_hold"
+          ]
+        }
+      },
+      "pa:glowstone_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:glowstone_armor_event_play"
+          ]
+        }
+      },
+      "pa:dark_oak_log_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:dark_oak_log_armor_event_hold"
+          ]
+        }
+      },
+      "pa:dark_oak_log_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:dark_oak_log_armor_event_play"
+          ]
+        }
+      },
+      "pa:hay_bale_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:hay_bale_armor_event_hold"
+          ]
+        }
+      },
+      "pa:hay_bale_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:hay_bale_armor_event_play"
+          ]
+        }
+      },
+      "pa:dark_oak_wooden_planks_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:dark_oak_wooden_planks_armor_event_hold"
+          ]
+        }
+      },
+      "pa:dark_oak_wooden_planks_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:dark_oak_wooden_planks_armor_event_play"
+          ]
+        }
+      },
+      "pa:cactus_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:cactus_armor_event_hold"
+          ]
+        }
+      },
+      "pa:cactus_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:cactus_armor_event_play"
+          ]
+        }
+      },
+      "pa:spruce_leaves_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:spruce_leaves_armor_event_hold"
+          ]
+        }
+      },
+      "pa:spruce_leaves_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:spruce_leaves_armor_event_play"
+          ]
+        }
+      },
+      "pa:jungle_tree_leaves_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:jungle_tree_leaves_armor_event_hold"
+          ]
+        }
+      },
+      "pa:jungle_tree_leaves_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:jungle_tree_leaves_armor_event_play"
+          ]
+        }
+      },
+      "pa:blackstone_armor2_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:blackstone_armor2_event_hold"
+          ]
+        }
+      },
+      "pa:blackstone_armor2_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:blackstone_armor2_event_play"
+          ]
+        }
+      },
+      "pa:emeral_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:emeral_armor_event_hold"
+          ]
+        }
+      },
+      "pa:emeral_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:emeral_armor_event_play"
+          ]
+        }
+      },
+      "pa:skeleton_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:skeleton_armor_event_hold"
+          ]
+        }
+      },
+      "pa:skeleton_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:skeleton_armor_event_play"
+          ]
+        }
+      },
+      "pa:grenite_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:grenite_armor_event_hold"
+          ]
+        }
+      },
+      "pa:grenite_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:grenite_armor_event_play"
+          ]
+        }
+      },
+      "pa:oak_log_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:oak_log_armor_event_hold"
+          ]
+        }
+      },
+      "pa:oak_log_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:oak_log_armor_event_play"
+          ]
+        }
+      },
+      "pa:fire_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:fire_armor_event_hold"
+          ]
+        }
+      },
+      "pa:fire_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:fire_armor_event_play"
+          ]
+        }
+      },
+      "pa:glass_armor_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:glass_armor_event_hold"
+          ]
+        }
+      },
+      "pa:glass_armor_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:glass_armor_event_play"
+          ]
+        }
+      }
+    }
+  }
+}

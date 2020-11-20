@@ -1,0 +1,1 @@
+{"format_version":"1.8.0","minecraft:attachable":{"description":{"identifier":"pa:acac_leaves_armor","materials":{"default":"armor","enchanted":"armor_enchanted"},"textures":{"default":"textures/models/armor/customarmor","enchanted":"textures/misc/enchanted_item_glint"},"geometry":{"default":"geometry.customarmor"},"render_controllers":["controller.render.armor"]}}}

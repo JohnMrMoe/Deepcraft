@@ -1,0 +1,1 @@
+{"format_version":"1.10","minecraft:item":{"description":{"identifier":"pa:acac_leaves_armor","category":"Nature"},"components":{"minecraft:icon":"pa:acac_leaves_armor","minecraft:hand_equipped":true,"minecraft:use_animation":"eat","minecraft:render_offsets":"miscellaneous"}}}

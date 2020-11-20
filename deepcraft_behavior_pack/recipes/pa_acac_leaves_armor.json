@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "acac_leaves_armor_98b9d23f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:leaves",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:acac_leaves_armor",
+      "count": 1
+    }
+  }
+}

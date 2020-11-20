@@ -1,0 +1,216 @@
+{
+  "resource_pack_name": "Furnicraft[Resource]",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "pa:acacia_log_armor": {
+      "textures": "textures/items/pamobile/pa_acacia_log_armor"
+    },
+    "pa:andesite_armor": {
+      "textures": "textures/items/pamobile/pa_andesite_armor"
+    },
+    "pa:diorite_armor": {
+      "textures": "textures/items/pamobile/pa_diorite_armor"
+    },
+    "pa:dirt_armor": {
+      "textures": "textures/items/pamobile/pa_dirt_armor"
+    },
+    "pa:cobblestone_armor": {
+      "textures": "textures/items/pamobile/pa_cobblestone_armor"
+    },
+    "pa:birch_log_armor": {
+      "textures": "textures/items/pamobile/pa_birch_log_armor"
+    },
+    "pa:jungle_tree_log_armor": {
+      "textures": "textures/items/pamobile/pa_jungle_tree_log_armor"
+    },
+    "pa:birch_leaves_armor": {
+      "textures": "textures/items/pamobile/pa_birch_leaves_armor"
+    },
+    "pa:dark_oak_log_armor": {
+      "textures": "textures/items/pamobile/pa_dark_oak_log_armor"
+    },
+    "pa:oak_leaves_armor": {
+      "textures": "textures/items/pamobile/pa_oak_leaves_armor"
+    },
+    "pa:arma_de_piedra": {
+      "textures": "textures/items/pamobile/pa_arma_de_piedra"
+    },
+    "pa:spruce_log_armor": {
+      "textures": "textures/items/pamobile/pa_spruce_log_armor"
+    },
+    "pa:birch_wooden_planks_armor": {
+      "textures": "textures/items/pamobile/pa_birch_wooden_planks_armor"
+    },
+    "pa:oak_wooden_planks_armor": {
+      "textures": "textures/items/pamobile/pa_oak_wooden_planks_armor"
+    },
+    "pa:spruce_wooden_planks_armor": {
+      "textures": "textures/items/pamobile/pa_spruce_wooden_planks_armor"
+    },
+    "pa:sea_armor": {
+      "textures": "textures/items/pamobile/pa_sea_armor"
+    },
+    "pa:sponge_armor": {
+      "textures": "textures/items/pamobile/pa_sponge_armor"
+    },
+    "pa:jungle_tree_wooden_planks_armor": {
+      "textures": "textures/items/pamobile/pa_jungle_tree_wooden_planks_armor"
+    },
+    "pa:fire_armor": {
+      "textures": "textures/items/pamobile/pa_fire_armor"
+    },
+    "pa:acacia_wooden_planks_armor": {
+      "textures": "textures/items/pamobile/pa_acacia_wooden_planks_armor"
+    },
+    "pa:dark_oak_wooden_planks_armor": {
+      "textures": "textures/items/pamobile/pa_dark_oak_wooden_planks_armor"
+    },
+    "pa:warped_stem_armor": {
+      "textures": "textures/items/pamobile/pa_warped_stem_armor"
+    },
+    "pa:glowstone_armor": {
+      "textures": "textures/items/pamobile/pa_glowstone_armor"
+    },
+    "pa:cactus_armor": {
+      "textures": "textures/items/pamobile/pa_cactus_armor"
+    },
+    "pa:skeleton_armor": {
+      "textures": "textures/items/pamobile/pa_skeleton_armor"
+    },
+    "pa:slime_armor": {
+      "textures": "textures/items/pamobile/pa_slime_armor"
+    },
+    "pa:spruce_leaves_armor": {
+      "textures": "textures/items/pamobile/pa_spruce_leaves_armor"
+    },
+    "pa:blackstone_armor": {
+      "textures": "textures/items/pamobile/pa_blackstone_armor"
+    },
+    "pa:jungle_tree_leaves_armor": {
+      "textures": "textures/items/pamobile/pa_jungle_tree_leaves_armor"
+    },
+    "pa:bedrock_armor": {
+      "textures": "textures/items/pamobile/pa_bedrock_armor"
+    },
+    "pa:obsidian_armor": {
+      "textures": "textures/items/pamobile/pa_obsidian_armor"
+    },
+    "pa:endstone_armor": {
+      "textures": "textures/items/pamobile/pa_endstone_armor"
+    },
+    "pa:blackstone_armor2": {
+      "textures": "textures/items/pamobile/pa_blackstone_armor2"
+    },
+    "pa:ice_armor": {
+      "textures": "textures/items/pamobile/pa_ice_armor"
+    },
+    "pa:glass_armor": {
+      "textures": "textures/items/pamobile/pa_glass_armor"
+    },
+    "pa:hay_bale_armor": {
+      "textures": "textures/items/pamobile/pa_hay_bale_armor"
+    },
+    "pa:emeral_armor": {
+      "textures": "textures/items/pamobile/pa_emeral_armor"
+    },
+    "pa:oak_log_armor": {
+      "textures": "textures/items/pamobile/pa_oak_log_armor"
+    },
+    "pa:grenite_armor": {
+      "textures": "textures/items/pamobile/pa_grenite_armor"
+    },
+    "pa:crimson_stem_armor": {
+      "textures": "textures/items/pamobile/pa_crimson_stem_armor"
+    },
+    "pa:netherra_armor": {
+      "textures": "textures/items/pamobile/pa_netherra_armor"
+    },
+    "pa:acac_leaves_armor": {
+      "textures": "textures/items/pamobile/pa_acac_leaves_armor"
+    },
+    "pa:obsidia_sword": {
+      "textures": "textures/items/pamobile/pa_obsidia_sword"
+    },
+    "pa:sea_axe": {
+      "textures": "textures/items/pamobile/pa_sea_axe"
+    },
+    "pa:emerald_sworld": {
+      "textures": "textures/items/pamobile/pa_emerald_sworld"
+    },
+    "pa:fire_hammer": {
+      "textures": "textures/items/pamobile/pa_fire_hammer"
+    },
+    "pa:bedrock_sword": {
+      "textures": "textures/items/pamobile/pa_bedrock_sword"
+    }
+  }
+}
