@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dwredux",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 19, 0],
+					"cubes": [
+						{"origin": [-4, 18, -4], "size": [8, 6, 8], "uv": [16, 34]}
+					]
+				},
+				{
+					"name": "Torso",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 7, -5], "size": [12, 11, 10], "uv": [4, 13]}
+					]
+				},
+				{
+					"name": "Leg_L",
+					"pivot": [-3, 7, 0],
+					"cubes": [
+						{"origin": [-6, 0, -3], "size": [6, 7, 6], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "Leg_R",
+					"pivot": [3, 7, 0],
+					"cubes": [
+						{"origin": [0, 0, -3], "size": [6, 7, 6], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "Arm_L",
+					"pivot": [-7, 16, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-10, 7, -2], "size": [4, 10, 4], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "Arm_R",
+					"pivot": [7, 16, 0],
+					"cubes": [
+						{"origin": [6, 7, -2], "size": [4, 10, 4], "uv": [0, 34]}
+					]
+				}
+			]
+		}
+	]
+}
